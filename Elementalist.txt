@@ -1,0 +1,7 @@
+Sym, 	aNum, 	name, 		conduc, amu, 		elec-neg, 	melt, 	boil, 	group, 		period, 	block, 		ion-E, 				type
+
+H, 	1, 	Hydrogen, 	0.000, 	1.008, 		2.20, 		13.99, 	20.271, group 1, 	period 1, 	s-block, 	1312.0, 			metalloidish
+He, 	2, 	Helium, 	0.000, 	4.002602, 	0, 		.95, 	4.222, 	group 18, 	period 1, 	s-block, 	2372.3 5250.5, 			noble gas
+Li, 	3, 	Lithium,	0.000, 	6.94, 		.98, 		453.65, 1603, 	group 1, 	perido 2, 	s-block, 	520.2 7298.1 11815.0, 		alkali metals
+Be, 	4, 	Beryllium, 	0.000, 	9.0121831, 	1.57, 		1560, 	3243, 	group 2, 	period 2, 	s-block, 	899.5 1757.1 14848.7 90001, 	alkaline earth metal
+B, 	5, 	Boron, 		27.4, 	10.81, 		2.04, 		2349, 	4200, 	group 13, 	period 2, 	p-block, 	800.6 2427.1 3659.7, 		metalloid
