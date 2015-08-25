@@ -28,18 +28,23 @@ block = 's-block'				#Periodic Table as of 8/24/15
 ionization_Energy = 1312.0 		#Kj/mol
 element_Category = 'metalloid' 	#Metalloid
 
-H = element(symbol, atomic_Number, name, conductivity, amu, electro_Neg, melt_P, boil_P, group, block, ionization_Energy, element_Category)
 
+testlist = []
+
+H = element(symbol, atomic_Number, name, conductivity, amu, electro_Neg, melt_P, boil_P, group, block, ionization_Energy, element_Category)
 symbol = 'Mg'
 
 Mg = element(symbol, atomic_Number, name, conductivity, amu, electro_Neg, melt_P, boil_P, group, block, ionization_Energy, element_Category)
 
 
-print Hg		#This prints the memory location of H, where the element is stored...
+print H		#This prints the memory location of H, where the element is stored...
 print Mg		#Which is assigned every time the code is run... I wonder how to use persistent memory? Might be better for my level to use persistant lists or documents.
-print Hg			
+print H			
 
+testlist.append(element(symbol, atomic_Number, name, conductivity, amu, electro_Neg, melt_P, boil_P, group, block, ionization_Energy, element_Category)
+)
 
+print testlist[0].symbol
 '''
 electron_Config
 
